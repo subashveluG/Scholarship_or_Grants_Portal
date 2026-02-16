@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScholarKids - Grants & Scholarships</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts & Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <i class="bi bi-mortarboard-fill text-primary me-2" style="font-size: 1.5rem;"></i>
+                <span class="fw-bold">ScholarKids</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="home2.html">Home 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-primary ms-lg-2 text-white" href="signup.html">Sign Up</a>
+                        </li>
+                        <li class="nav-item ms-lg-2">
+                            <button class="btn btn-outline-secondary" id="theme-toggle">
+                                <i class="bi bi-moon-fill"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-bg-shape"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h1 class="hero-title">Unlock Your Future with <span>Scholarships</span> & Grants</h1>
+                    <p class="lead mb-4">Explore thousands of opportunities for kids and students. We make finding
+                        funding fun and easy!</p>
+                    <div class="d-flex gap-3">
+                        <a href="services.html" class="btn btn-primary btn-lg shadow-lg">Find Grants <i
+                                class="bi bi-arrow-right ms-2"></i></a>
+                        <a href="signup.html" class="btn btn-secondary btn-lg">Join Now</a>
+                    </div>
+                    <div class="mt-4 d-flex align-items-center gap-3">
+                        <div class="d-flex">
+                            <img src="https://placehold.co/40x40" class="rounded-circle border border-2 border-white"
+                                alt="">
+                            <img src="https://placehold.co/40x40"
+                                class="rounded-circle border border-2 border-white ms-n2" style="margin-left: -15px;"
+                                alt="">
+                            <img src="https://placehold.co/40x40"
+                                class="rounded-circle border border-2 border-white ms-n2" style="margin-left: -15px;"
+                                alt="">
+                        </div>
+                        <small class="text-muted fw-bold">Trusted by 10,000+ happy parents</small>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block text-center" data-aos="fade-left">
+                    <img src="https://placehold.co/600x600/png?text=Happy+Student" alt="Happy Student" class="img-fluid"
+                        style="filter: drop-shadow(0 20px 40px rgba(0,0,0,0.1)); transform: scale(1.1);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Sections (6 Sections) -->
+
+    <!-- Section 1: Features -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="feature col text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon bg-gradient">
+                        <i class="bi bi-search"></i>
+                    </div>
+                    <h2>Easy Search</h2>
+                    <p>Find relevant scholarships quickly with our advanced search filters.</p>
+                </div>
+                <div class="feature col text-center">
+                    <div class="feature-icon bg-gradient">
+                        <i class="bi bi-person-check"></i>
+                    </div>
+                    <h2>Verified Grants</h2>
+                    <p>All listings are verified to ensure they are safe and legitimate for kids.</p>
+                </div>
+                <div class="feature col text-center">
+                    <div class="feature-icon bg-gradient">
+                        <i class="bi bi-journal-check"></i>
+                    </div>
+                    <h2>Application Help</h2>
+                    <p>Get tips and guides on how to write winning applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Latest Grants -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Latest Opportunities</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card h-100">
+                        <img src="https://placehold.co/600x400/4A90E2/white?text=Science+Grant" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Science Fair Grant</h5>
+                            <p class="card-text">Funding for school science projects and experiments.</p>
+                            <a href="#" class="btn btn-primary">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more cards as needed -->
+                <div class="col" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card h-100">
+                        <img src="https://placehold.co/600x400/F5A623/white?text=Art+Scholarship" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Young Artists Scholarship</h5>
+                            <p class="card-text">Support for budding artists to attend summer workshops.</p>
+                            <a href="#" class="btn btn-primary">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="card h-100">
+                        <img src="https://placehold.co/600x400/7ED321/white?text=Sports+Fund" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Junior Sports Fund</h5>
+                            <p class="card-text">Financial aid for sports equipment and training fees.</p>
+                            <a href="#" class="btn btn-primary">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: About Us -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6" data-aos="fade-right">
+                    <img src="https://placehold.co/600x400?text=About+Us" class="img-fluid rounded" alt="About Us">
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <h2>Empowering the Next Generation</h2>
+                    <p class="lead">We believe every child deserves the chance to pursue their dreams.</p>
+                    <p>Our platform connects students with the resources they need to succeed in academics, arts,
+                        sports, and more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Testimonials -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">What Parents Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <figure class="text-center">
+                        <blockquote class="blockquote">
+                            <p>"A fantastic resource! We found a music scholarship for my daughter."</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Sarah J. <cite title="Source Title">Parent</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <figure class="text-center">
+                        <blockquote class="blockquote">
+                            <p>"Easy to use and very helpful support team. Highly recommended."</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Mike T. <cite title="Source Title">Teacher</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <figure class="text-center">
+                        <blockquote class="blockquote">
+                            <p>"Helped my son get funding for his coding camp. Thank you!"</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Emily R. <cite title="Source Title">Parent</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Newsletter -->
+    <section class="py-5 bg-primary text-white text-center" data-aos="fade-up">
+        <div class="container">
+            <h2>Subscribe to our Newsletter</h2>
+            <p>Get the latest grants and scholarships delivered to your inbox.</p>
+            <form class="row g-3 justify-content-center mt-3">
+                <div class="col-auto">
+                    <label for="newsletterEmail" class="visually-hidden">Email</label>
+                    <input type="email" class="form-control" id="newsletterEmail" placeholder="email@example.com">
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-secondary mb-3">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Section 6: FAQ -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Is this service free?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Yes, searching for scholarships and grants is completely free for students and parents.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How do I apply?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Each grant has its own application process. Click "Apply Now" to see specific instructions.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pt-5 pb-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <h5>ScholarKids</h5>
+                    <p>Empowering kids through educational opportunities.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5>Company</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Careers</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5>Support</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Help Center</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5>Newsletter</h5>
+                    <form>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between py-4 my-4 border-top">
+                <p>&copy; 2026 ScholarKids. All rights reserved.</p>
+                <button id="back-to-top" class="btn btn-primary rounded-circle"><i class="bi bi-arrow-up"></i></button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+    </script>
+</body>
+
+</html>
